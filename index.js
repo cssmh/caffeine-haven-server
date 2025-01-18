@@ -10,7 +10,8 @@ const port = process.env.PORT;
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://caffeine-haven.vercel.app"
+        "https://caffeine-haven.vercel.app",
+        "https://caffeinehaven-64a30.web.app"
     ]
 }));
 app.use(express.json());
